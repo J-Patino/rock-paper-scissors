@@ -37,21 +37,8 @@ print (choices[users_pick])
 
 random_pick= random.randint(0, 2)
 
-#Not needed code below
-#computers_move = choices[random_pick]
- 
-#if users_pick == 0:
-  #print(rock)
-#elif users_pick == 1:
-  #print(paper)
-#elif users_pick == 2:
-  #print(scissors)
-#else:
-  #print("Enter number between 0-2")
 
 print(f"The computer chose: \b{choices[random_pick]}")
-
-
 
 
 if users_pick > random_pick:
